@@ -6,6 +6,7 @@
 - Nama: Hera Larissa Rudiyana
 - NIM: 025A00200020
 - Kelas: A2-3A
+- Mata Kuliah: Pemograman Web
 
 ## Deskripsi Proyek
 Kantin Kampus TSU adalah website sederhana untuk menampilkan profil kantin kampus dan katalog makanan serta minuman. Pengunjung dapat melihat harga, kategori, status ketersediaan, dan memilih menu berdasarkan kategori.
