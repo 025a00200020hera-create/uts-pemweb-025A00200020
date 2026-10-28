@@ -1,5 +1,16 @@
-# Object file
-*.o
+# File sistem operasi
+.DS_Store
+Thumbs.db
+desktop.ini
 
-# Ada Library Information
-*.ali
+# Log
+*.log
+
+# File sementara
+*.tmp
+*.bak
+*.swp
+
+# Pengaturan editor lokal
+.vscode/
+.idea/
