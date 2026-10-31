@@ -1,7 +1,7 @@
 # uts-pemweb-025A00200020
 
 
-# Kantin Kampus Kita
+# Kantin Kampus TSU
 
 ## 1. Identitas
 
@@ -79,28 +79,26 @@ Fungsi array bawaan:
 
 ## 7. Cara Menjalankan
 
-1. Instal dan jalankan Apache melalui XAMPP.
-2. Simpan folder proyek di dalam htdocs.
+1. Instal dan jalankan Apache melalui Laragon.
+2. Simpan folder proyek di dalam www laragon.
 3. Buka browser.
-4. Akses http://localhost/uts-pemweb-NIM/.
+4. Akses http://localhost/uts-pemweb-025A00200020/.
 5. Buka katalog melalui navigasi website.
 
 Website ini tidak memerlukan database.
 
+
 ## 8. Tangkapan Layar
 
-Simpan tangkapan layar setelah website berhasil dijalankan:
+Berikut adalah tampilan website setelah berhasil dijalankan.
 
-- screenshots/beranda.png
-- screenshots/katalog.png
+### Halaman Beranda
+![Tampilan Beranda](screenshots/screenshot.beranda.png)
+
+### Halaman Katalog
+![Tampilan Katalog](screenshots/screenshot.katalog.png)
 
 ## 9. Referensi dan Bantuan AI
-
-Referensi pembelajaran:
-
-- PHP: https://www.php.net/manual/en/
-- MDN HTML: https://developer.mozilla.org/en-US/docs/Web/HTML
-- MDN CSS: https://developer.mozilla.org/en-US/docs/Web/CSS
 
 Bantuan AI digunakan untuk membantu penyusunan struktur,
 penulisan kode awal, dan penjelasan fungsi program.

@@ -8,7 +8,7 @@ $daftarMenu = [
         'harga' => 15000,
         'pedas' => 'Sedang',
         'status' => 'Tersedia',
-        'ikon' => '🍛',
+        'ikon' => '🍳',
     ],
     [
         'nama' => 'Ayam Geprek',
@@ -32,7 +32,7 @@ $daftarMenu = [
         'harga' => 13000,
         'pedas' => 'Sedang',
         'status' => 'Habis',
-        'ikon' => '🥣',
+        'ikon' => '🍲',
     ],
     [
         'nama' => 'Seblak',
@@ -40,7 +40,7 @@ $daftarMenu = [
         'harga' => 14000,
         'pedas' => 'Pedas',
         'status' => 'Tersedia',
-        'ikon' => '🍲',
+        'ikon' => '🥘',
     ],
     [
         'nama' => 'Es Teh',
@@ -48,7 +48,7 @@ $daftarMenu = [
         'harga' => 4000,
         'pedas' => 'Tidak pedas',
         'status' => 'Tersedia',
-        'ikon' => '🧋',
+        'ikon' => '🥤',
     ],
     [
         'nama' => 'Es Jeruk',
@@ -56,7 +56,7 @@ $daftarMenu = [
         'harga' => 6000,
         'pedas' => 'Tidak pedas',
         'status' => 'Tersedia',
-        'ikon' => '🍊',
+        'ikon' => '🍹',
     ],
     [
         'nama' => 'Kopi Susu',

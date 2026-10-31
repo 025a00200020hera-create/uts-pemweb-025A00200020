@@ -20,10 +20,6 @@ $totalMinuman = count(array_filter(
     }
 ));
 
-$totalHargaMenu = array_sum(
-    array_column($daftarMenu, 'harga')
-);
-
 $menuTermurah = cariMenuTermurah($daftarMenu);
 
 $jumlahPerKategori = array_count_values(
@@ -64,16 +60,19 @@ $jumlahPerKategori = array_count_values(
                         aktivitas kuliahmu. Pilih menu favorit dengan harga
                         yang ramah di kantong mahasiswa.
                     </p>
+                    
                     <a class="button button-primary" href="katalog.php">
                         Lihat Katalog Menu
                     </a>
                 </div>
 
-                <div class="hero-illustration" aria-hidden="true">
-                    <span>🍛</span>
-                    <span>🥤</span>
-                    <span>🍜</span>
+                <div class="hero-image">
+                    <img
+                        src="assets/kantin.jpeg"
+                        alt="Suasana Kantin Kampus TSU dengan berbagai pilihan makanan"
+                    >
                 </div>
+
             </div>
         </section>
 
@@ -85,7 +84,7 @@ $jumlahPerKategori = array_count_values(
 
             <article class="about-card">
                 <p>
-                    Kantin Kampus Kita merupakan website profil dan katalog
+                    Kantin Kampus TSU merupakan website profil dan katalog
                     sederhana yang membantu mahasiswa melihat pilihan menu
                     makanan dan minuman di lingkungan kampus.
                 </p>
@@ -176,14 +175,6 @@ $jumlahPerKategori = array_count_values(
                 <?php endforeach; ?>
             </div>
 
-            <p class="summary-note total-harga">
-                Akumulasi harga seluruh menu:
-                <strong><?= e(formatRupiah($totalHargaMenu)) ?></strong>
-            </p>
-            <p class="small-note">
-                Angka tersebut merupakan penjumlahan harga semua menu,
-                bukan total pendapatan atau stok kantin.
-            </p>
         </section>
     </main>
 
