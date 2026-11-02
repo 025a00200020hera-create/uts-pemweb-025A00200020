@@ -66,4 +66,12 @@ $daftarMenu = [
         'status' => 'Habis',
         'ikon' => '☕',
     ],
+    [
+        'nama' => 'Teh Tarik',
+        'kategori' => 'Minuman',
+        'harga' => 5000,
+        'pedas' => 'Tidak pedas',
+        'status' => 'Tersedia',
+        'ikon' => '🥛',
+    ]
 ];
