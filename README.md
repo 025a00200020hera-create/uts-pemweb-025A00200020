@@ -7,14 +7,16 @@
 
 - Nama: Hera Larissa Rudiyana 
 - NIM: 025A00200020
+
 - Kelas: A2 - 3A
 - Mata kuliah: Pemrograman Web
 - Program studi: Informatika
+- Tema : Kantin Kampus TSU
 
 ## 2. Deskripsi Proyek
 
 Kantin Kampus TSU adalah website profil dan katalog menu kantin
-kampus yang dibuat menggunakan HTML5, CSS, dan PHP dasar.
+kampus yang dibuat menggunakan HTML, CSS, dan PHP dasar.
 Website menampilkan informasi kantin, daftar makanan dan minuman,
 harga, tingkat kepedasan, serta status ketersediaan menu.
 
@@ -24,9 +26,9 @@ Pemrograman Web.
 
 ## 3. Teknologi yang Digunakan
 
-- HTML5 semantik
-- CSS3
-- PHP 8.0 atau lebih baru
+- HTML
+- CSS
+- PHP 
 - Git dan GitHub
 - Laragon
 
@@ -44,7 +46,7 @@ Pemrograman Web.
 
 ## 5. Daftar Fitur
 
-- Profil Kantin Kampus Kita: index.php.
+- Profil Kantin Kampus TSU: index.php.
 - Ringkasan jumlah menu: index.php.
 - Ringkasan menu per kategori: index.php.
 - Informasi menu termurah: index.php menggunakan cariMenuTermurah().
@@ -71,7 +73,6 @@ Fungsi array bawaan:
 - array_filter(): menyaring data menu.
 - array_values(): menyusun ulang indeks array.
 - array_column(): mengambil nilai dari kolom array.
-- array_sum(): menjumlahkan harga menu.
 - array_count_values(): menghitung jumlah menu per kategori.
 - array_unique(): mengambil kategori yang unik.
 - in_array(): memeriksa kategori yang valid.
@@ -99,6 +100,10 @@ Berikut adalah tampilan website setelah berhasil dijalankan.
 ![Tampilan Katalog](screenshots/screenshot.katalog.png)
 
 ## 9. Referensi dan Bantuan AI
+
+Referensi
+- Materi dan panduan membuat website yang pernah dipelajari saat smk
+- PHP Manual: https://www.php.net/manual/en/
 
 Bantuan AI digunakan untuk membantu penyusunan struktur,
 penulisan kode awal, dan penjelasan fungsi program.
