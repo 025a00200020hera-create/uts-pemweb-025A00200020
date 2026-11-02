@@ -7,7 +7,6 @@
 
 - Nama: Hera Larissa Rudiyana 
 - NIM: 025A00200020
-
 - Kelas: A2 - 3A
 - Mata kuliah: Pemrograman Web
 - Program studi: Informatika
